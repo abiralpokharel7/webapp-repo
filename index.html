@@ -1,50 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" href="images/shib.jpeg" >
-</head>
-<body style="background-color: whitesmoke; color: orange;" >
-    <h1>Welcome to my gitgram!</h1>
-    <br>
-    <p>To download these images all you have to do is click them.</p>
-    <br> <br>
-    <a href="images/shib.jpeg" download>
-        <img src="images/shib.jpeg" alt="picture of shiba inu " height="auto" width="250px"/>
-        <figcaption>Image of shiba inu</figcaption>
-    </a>
-    <a href="images/bird.jpg" download>
-        <img src="images/bird.jpg" alt="picture of bird " height="auto" width="250px"/>
-        <figcaption>Bird near by pond, captured by @subarna</figcaption>
-    </a>
-    <a href="images/owl.jpg" download>
-        <img src="images/owl.jpg" alt="picture of owl " height="auto" width="250px"/>
-        <figcaption>owl staring at you, captured by @subarna</figcaption>
-    </a>
-    <a href="images/zuckbot.jpg" download>
-        <img src="images/zuckbot.jpg" alt="picture of zuckbot " height="auto" width="250px"/>
-        <figcaption >zuckbot just like zuckberg</figcaption>
-    </a>
-    <a href="images/snake.jpg" download>
-        <img src="images/snake.jpg" alt="picture of snake " height="auto" width="250px"/>
-        <figcaption>snake or maybe your ex, captured by @subarna</figcaption>
-    </a>
-    <style>
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        img{
-            border: 2px solid lime;
-            border-radius: 5px;
-        }
-        img:hover{
-            height: auto;
-            width: 50%;
-        }
-    </style>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <link rel="icon" href="images/shib.jpeg" >
+   </head>
+   <body style="background-color: blue; height: auto;background-image: linear-gradient(90deg, blue, black); color: white;" >
+      <h1>Welcome to my gitgram!</h1>
+      <br>
+      <!-- links to table -->
+      <a id="link" href="table.html">Table</a> 
+      <a id="link" href="https://www.w3schools.com/" target="_blank">W3S</a> 
+      <a id="link" href="#footer">About</a> 
+
+
+      <p>To <b style="font-size: larger;"> download </b>these images all you have to do is <b style="font-size: larger;">click them</b>.</p>
+      <br> <br>
+      <a href="images/shib.jpeg" download >
+         <img src="images/shib.jpeg" alt="picture of shiba inu " height="auto" width="250px"/>
+         <figcaption>Image of shiba inu</figcaption>
+      </a>
+      <a href="images/bird.jpg" download>
+         <img src="images/bird.jpg" alt="picture of bird " height="auto" width="250px"/>
+         <figcaption>Bird near by pond, captured by @subarna</figcaption>
+      </a>
+      <a href="images/owl.jpg" download>
+         <img src="images/owl.jpg" alt="picture of owl " height="auto" width="250px"/>
+         <figcaption>owl staring at you, captured by @subarna</figcaption>
+      </a>
+      <a href="images/zuckbot.jpg" download>
+         <img src="images/zuckbot.jpg" alt="picture of zuckbot " height="auto" width="250px"/>
+         <figcaption >zuckbot just like zuckberg</figcaption>
+      </a>
+      <a href="images/snake.jpg" download>
+         <img src="images/snake.jpg" alt="picture of snake " height="auto" width="250px"/>
+         <figcaption>snake or maybe your ex, captured by @subarna</figcaption>
+      </a>
+      <style>
+         a{
+         
+         text-decoration: underline;
+         color: orange;
+         }
+         a#link{
+             text-align: center;
+             display: inline;
+             margin-left: 50%;
+         }
+         img{
+         border: 2px solid lime;
+         border-radius: 5px;
+         }
+         img:hover{
+         height: auto;
+         width: 50%;
+         }
+      </style>
+      <footer id="footer">This website is created for downloading images. Thank you for using it! Copyrighted @biral 2021-</footer>
+   </body>
 </html>
